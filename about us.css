@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+
+
+body{
+    margin: 0;
+    
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 70px;
+    background-color: rgba(202, 117, 19, 0.795);
+    top: 0;
+    left: 0;
+    position: sticky;
+    
+    
+}
+
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    letter-spacing: 3px;
+    margin: 0;
+
+    
+    
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: beige;
+    font-size: 17px;
+    font-weight: 800;
+    
+
+}
+
+.nav-links li{
+    margin-left: 16px;
+
+
+}
+.nav-links a:hover{
+    color: aqua;
+
+}
+
+.list-show{
+    padding-right: 170px;
+    padding-left: 60px;
+}
+.show{
+    padding-right: 50px;
+}
+h1{
+    font-family:  Ga Maamli;
+    text-align: center;
+    font-size: 60px;
+
+}
+
+h3{
+    text-align: center;
+    margin-top: 85px;
+    font-size: 40px;
+
+}
+body{
+    background-color: black;
+    color:  rgba(202, 117, 19, 0.795);
+
+}
+.essay{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}

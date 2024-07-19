@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+header .logo {
+    font-size: 1.5em;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero .welcome-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 60px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    background-color: #f4f4f4;
+}
+
+.features .feature {
+    text-align: center;
+    width: 30%;
+}
+
+.testimonials {
+    background-color: #eee;
+    padding: 2em;
+}
+
+.testimonials blockquote {
+    font-style: italic;
+    margin: 1em 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .social-media a,
+footer .address p {
+    margin: 0.5em 0;
+}
+
+footer .newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .newsletter form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .newsletter input {
+    margin: 0.5em 0;
+    padding: 0.5em;
+}
